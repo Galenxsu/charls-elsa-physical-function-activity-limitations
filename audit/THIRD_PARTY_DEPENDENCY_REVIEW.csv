@@ -1,0 +1,10 @@
+dependency,use,source_code_vendored,license_effect_on_author_code,status
+numpy,numerical operations,NO,No bundled dependency code; install separately,PACKAGE_LICENSE_TO_BE_RECORDED_AT_RELEASE
+pandas,data manipulation,NO,No bundled dependency code; install separately,PACKAGE_LICENSE_TO_BE_RECORDED_AT_RELEASE
+scipy,scientific routines,NO,No bundled dependency code; install separately,PACKAGE_LICENSE_TO_BE_RECORDED_AT_RELEASE
+statsmodels,regression models,NO,No bundled dependency code; install separately,PACKAGE_LICENSE_TO_BE_RECORDED_AT_RELEASE
+patsy,design matrices,NO,No bundled dependency code; install separately,PACKAGE_LICENSE_TO_BE_RECORDED_AT_RELEASE
+pyreadstat,authorized Stata-file reader,NO,No bundled dependency code; install separately,PACKAGE_LICENSE_TO_BE_RECORDED_AT_RELEASE
+matplotlib,figures,NO,No bundled dependency code; install separately,PACKAGE_LICENSE_TO_BE_RECORDED_AT_RELEASE
+openpyxl,Excel output,NO,No bundled dependency code; install separately,PACKAGE_LICENSE_TO_BE_RECORDED_AT_RELEASE
+python-docx,Word output,NO,No bundled dependency code; install separately,PACKAGE_LICENSE_TO_BE_RECORDED_AT_RELEASE

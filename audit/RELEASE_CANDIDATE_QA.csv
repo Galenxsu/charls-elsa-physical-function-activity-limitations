@@ -1,0 +1,12 @@
+﻿check,value,status
+restricted_data_files_present,0,PASS
+local_absolute_paths_present,0,PASS
+credential_patterns_present,0,PASS
+superseded_elsa_result_patterns,0,PASS
+python_syntax,5/5,PASS
+restricted_data_included,0,PASS
+models_rerun_during_packaging,0,PASS
+public_release_performed,0,PASS
+python_files_cleared_for_release,5,PASS
+controlled_end_to_end_reproduction,1,PASS_WITH_DOCUMENTED_CROSSWALK_PROVENANCE_DIFFERENCE
+author_license_confirmation,5,PASS

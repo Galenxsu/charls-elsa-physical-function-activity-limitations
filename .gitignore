@@ -1,0 +1,39 @@
+# Restricted cohort data and derived individual-level records
+data/raw/**
+data/derived/**
+*.dta
+*.sav
+*.por
+*.sas7bdat
+*.xpt
+*.parquet
+*.feather
+*PERSON_PERIOD*
+*LANDMARK_COHORT*
+*MEMBER_SET*
+
+# Local configuration, credentials, and environments
+.env
+.env.*
+config/local*
+secrets/**
+credentials/**
+*.pem
+*.key
+*.token
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated outputs
+outputs/**
+!outputs/.gitkeep
+
+# Office and operating-system files
+~$*
+.DS_Store
+Thumbs.db
+

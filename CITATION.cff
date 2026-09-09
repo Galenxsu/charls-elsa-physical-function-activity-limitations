@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the archived release and the associated article."
+title: "Code for Changes in Objective Physical Function and Subsequent Activity Limitations"
+type: software
+authors:
+  - family-names: Zeng
+    given-names: Guishu
+  - family-names: Lei
+    given-names: Ying
+  - family-names: Wang
+    given-names: Xueping
+  - family-names: Lu
+    given-names: Yunqiong
+  - family-names: Su
+    given-names: Kai
+    email: sukaix@163.com
+license: MIT
+version: 1.0.0
+date-released: 2026-09-10
+repository-code: "https://github.com/Galenxsu/charls-elsa-physical-function-activity-limitations"
+url: "https://github.com/Galenxsu/charls-elsa-physical-function-activity-limitations"
+# The Zenodo DOI will be added after the first archived GitHub release.

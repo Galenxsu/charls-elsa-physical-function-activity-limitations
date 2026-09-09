@@ -1,0 +1,6 @@
+﻿file,status,detail
+src/charls/01_primary_analysis.py,PASS,Python syntax compilation succeeded
+src/charls/02_exploratory_extensions.py,PASS,Python syntax compilation succeeded
+src/elsa/01_conceptual_replication.py,PASS,Python syntax compilation succeeded
+src/figures/build_current_figures_tables.py,PASS,Python syntax compilation succeeded
+src/figures/build_submission_figures_tables.py,PASS,Python syntax compilation succeeded

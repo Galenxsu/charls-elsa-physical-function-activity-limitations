@@ -1,0 +1,2 @@
+﻿file,line,rule,match,status
+src/charls/01_primary_analysis.py,150,raw_identifier_export,"to_csv(OUT/""03_analysis_datasets/PRIMARY_PERSON_PERIOD_DEIDENTIFIED.csv"",index=False,encoding=""utf-8-sig""); exp[[c for c in exp.columns if c not in [""pid"",""ID",REVIEW

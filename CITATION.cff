@@ -19,4 +19,4 @@ version: 1.0.0
 date-released: 2026-09-10
 repository-code: "https://github.com/Galenxsu/charls-elsa-physical-function-activity-limitations"
 url: "https://github.com/Galenxsu/charls-elsa-physical-function-activity-limitations"
-# The Zenodo DOI will be added after the first archived GitHub release.
+doi: "10.5281/zenodo.22699531"

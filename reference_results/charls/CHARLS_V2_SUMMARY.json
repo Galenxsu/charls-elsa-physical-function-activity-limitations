@@ -1,0 +1,40 @@
+{
+  "status": "CHARLS_V2_PRIMARY_COMPLETE",
+  "participants": 3767,
+  "person_periods": 6689,
+  "events": 1010,
+  "sd_change_kg": 7.304046428825811,
+  "HR_per_SD": {
+    "term": "grip_decline_sd",
+    "log_HR": 0.1937325587395562,
+    "HR": 1.2137716269311625,
+    "CI_low": 1.1190818010105512,
+    "CI_high": 1.3164735241094594,
+    "p_value": 2.9406872547982784e-06
+  },
+  "HR_per_5kg": {
+    "term": "grip_decline_sd",
+    "log_HR": 0.1326200214000422,
+    "HR": 1.1418160502264445,
+    "CI_low": 1.0800614574169713,
+    "CI_high": 1.2071015807495775,
+    "p_value": 2.9406872547982784e-06
+  },
+  "LR": 23.938592808061003,
+  "LR_p": 9.94578500462576e-07,
+  "interval_interaction": {
+    "term": "C(interval)[T.2018-2020]:grip_decline_sd",
+    "log_HR": -0.04509920512389931,
+    "HR": 0.9559026466886111,
+    "CI_low": 0.8346246695976218,
+    "CI_high": 1.0948033328403972,
+    "p_value": 0.5147101491846344
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0"
+  }
+}

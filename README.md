@@ -1,6 +1,6 @@
 # CHARLS–ELSA objective physical function study: analysis code
 
-This repository contains the analysis code supporting **Changes in Objective Physical Function and Subsequent Activity Limitations: Longitudinal Evidence from CHARLS and ELSA**.
+This repository contains the analysis code supporting **Decline in objective physical function and subsequent activity limitation: longitudinal associations after accounting for earlier function in CHARLS and ELSA**.
 
 ## Release status
 
@@ -10,9 +10,9 @@ The authors confirmed that the five included Python files were developed within 
 
 The code covers variable construction, complete-case selection, person-period construction, prespecified regression models, sensitivity analyses, and submission figures/tables. CHARLS is the primary finding cohort. ELSA is an independently implemented conceptual replication with harmonized but non-equivalent outcomes.
 
-The ELSA code included here corresponds exclusively to the Wave 6 smoking structural-skip correction accepted on 3 September 2026. Earlier ELSA implementations and results are superseded and are not included.
+Version 1.1.0 aligns the public CHARLS primary workflow with the grip-focused submission analysis. The ELSA code corresponds to the Wave 6 smoking structural-skip correction used in the conceptual replication. Earlier implementations and results are superseded and are not included.
 
-All cross-cohort outputs use the current CHARLS primary estimate after correction of the ADL structural-skip implementation: HR 1.181677, 95% CI 1.075609–1.298206, P=0.000503 (submission display: HR 1.182, 95% CI 1.076–1.298, P<0.001). Earlier CHARLS crosswalk values are classified as `SUPERSEDED_BY_ADL_STRUCTURAL_SKIP_CORRECTION`.
+The current grip-focused CHARLS primary analysis includes 3,767 participants, 6,689 person-periods and 1,010 events. The hazard ratio per one-standard-deviation greater grip decline is 1.213772 (95% CI 1.119082–1.316474; P=2.9406873e-06), displayed in the submission as HR 1.214 (95% CI 1.119–1.316). The earlier biomarker-complete estimate of HR 1.181677 is retained only as a secondary physiological analysis and is not the primary submission estimate.
 
 ## Data are not included
 
@@ -46,7 +46,7 @@ or install `requirements.txt` in a clean Python environment. The supplied enviro
 
 1. Obtain authorized CHARLS and/or ELSA data.
 2. Define the path variables shown in `config/paths.example.env` outside the repository.
-3. Run `src/charls/01_primary_analysis.py`.
+3. Define `CHARLS_ITEM_MAP_FILE` as the local path to the validated ADL/IADL item-level coding map, then run `src/charls/01_primary_analysis.py`.
 4. Run `src/charls/02_exploratory_extensions.py`.
 5. Run `src/elsa/01_conceptual_replication.py`.
 6. Run `src/figures/build_submission_figures_tables.py` after the required aggregate results are available.
@@ -61,4 +61,4 @@ The MIT License applies only to original code in this repository. It does not ap
 
 Repository: https://github.com/Galenxsu/charls-elsa-physical-function-activity-limitations
 
-Archived release: https://doi.org/10.5281/zenodo.22699531
+The version-specific Zenodo DOI for v1.1.0 will be added after the new archive is published. The previous v1.0.0 archive is https://doi.org/10.5281/zenodo.22699531.

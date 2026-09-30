@@ -1,0 +1,14 @@
+﻿check,status,detail
+participant IDs unique at landmark,PASS,0
+person-period duplicates,PASS,0
+event only once per participant,PASS,0
+stop after first event,PASS,0
+no invalid bridge interval,PASS,0
+baseline dependency excluded,PASS,0
+exposure precedes outcome,PASS,2011-2015 change; 2018/2020 outcome
+design matrix full rank,PASS,17/17
+finite coefficients,PASS,True
+finite standard errors,PASS,True
+cluster robust covariance available,PASS,cluster
+event counts reconcile,PASS,1010
+displayed numbers machine-readable,PASS,CHARLS_PRIMARY_GRIP_MODEL.csv

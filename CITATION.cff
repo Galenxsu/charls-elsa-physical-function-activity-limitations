@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the archived release and the associated article."
-title: "Code for Changes in Objective Physical Function and Subsequent Activity Limitations"
+title: "Code for Decline in Objective Physical Function and Subsequent Activity Limitation"
 type: software
 authors:
   - family-names: Zeng
@@ -16,8 +16,8 @@ authors:
     email: sukaix@163.com
     orcid: "https://orcid.org/0009-0002-9080-053X"
 license: MIT
-version: 1.0.0
-date-released: 2026-09-10
+version: 1.1.0
+date-released: 2026-09-30
 repository-code: "https://github.com/Galenxsu/charls-elsa-physical-function-activity-limitations"
 url: "https://github.com/Galenxsu/charls-elsa-physical-function-activity-limitations"
-doi: "10.5281/zenodo.22699531"
+# The v1.1.0 version DOI will be added after Zenodo publication.

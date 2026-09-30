@@ -1,0 +1,4 @@
+﻿component,term,HR,CI_low,CI_high,p_value,interval,person_periods,events
+interaction,grip_z:C(interval)[T.2],1.0757261400062124,0.9181619626729094,1.2603296317393917,0.36633421629251117,,,
+events,,,,,,1.0,3991.0,423.0
+events,,,,,,2.0,3242.0,310.0

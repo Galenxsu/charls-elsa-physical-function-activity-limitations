@@ -64,7 +64,7 @@ The MIT License applies only to original code in this repository. It does not ap
 
 Repository: https://github.com/Galenxsu/charls-elsa-physical-function-activity-limitations
 
-Current version: v1.2.0. The version-specific Zenodo DOI will be added after the release is deposited.
+Archived release v1.2.0: https://doi.org/10.5281/zenodo.23727888
 
 All-version Zenodo record: https://doi.org/10.5281/zenodo.22699530
 

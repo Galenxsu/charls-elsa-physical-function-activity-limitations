@@ -1,0 +1,7 @@
+{
+  "row_count": 4,
+  "expected_rows": 4,
+  "all_finite_key_statistics": true,
+  "identical_samples_within_each_B_C_comparison": true,
+  "primary_files_overwritten": false
+}

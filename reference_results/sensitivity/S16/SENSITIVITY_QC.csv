@@ -1,0 +1,6 @@
+﻿check,status
+CHARLS original anchor reproduced,PASS
+Only explicit questionnaire skip recoded,PASS
+Unresolved 2015 missing patterns remain missing,PASS
+Same-sample comparators supplied for early status and BMI,PASS
+No original result files overwritten,PASS

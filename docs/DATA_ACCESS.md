@@ -18,3 +18,11 @@ ELSA data are available through the UK Data Service, Study Number 5050, subject 
 
 No real example data are supplied. Any future example dataset must be completely synthetic and must not be created by perturbing participant records.
 
+## Sensitivity-analysis paths
+
+The S16-S18 scripts use the same authorized CHARLS and ELSA inputs as the
+primary workflows. Set `SENSITIVITY_OUTPUT_ROOT` to a writable directory
+outside the repository if desired. `CHARLS_V1_DEIDENTIFIED_COHORT` is optional
+and is read only for the historical V1 CES-D10 missingness audit; omitting it
+does not prevent the S18 outcome models from running.
+

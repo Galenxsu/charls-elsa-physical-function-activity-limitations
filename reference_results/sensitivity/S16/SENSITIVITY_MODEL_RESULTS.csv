@@ -1,0 +1,16 @@
+﻿cohort,analysis,model,participants,person_periods,events,term,HR,CI_low,CI_high,p_value,notes,change_scale
+CHARLS,primary reproduction,original primary,3767,6689,1010,grip_decline_sd,1.2137716269311634,1.119083471253266,1.316471559260217,2.9406872547978913e-06,,1 SD = 7.304046 kg
+CHARLS,2015 structural-skip recoding,eligible deterministic skips recoded as dependency-free,5844,10578,1246,grip_decline_sd,1.2119633707726327,1.126317441898873,1.3041218731534512,2.730455321661172e-07,Only questionnaire-explicit DB001/DB004-DB009 all-no-difficulty routing patterns were recoded; unresolved patterns remained missing.,1 SD = 7.258629 kg
+CHARLS,earlier ADL/IADL status,same-sample comparator,2694,4712,818,grip_decline_sd,1.2034541314812617,1.0994955145841376,1.3172421600347404,5.8767637686073896e-05,,
+CHARLS,earlier ADL/IADL status,adjusted for 2011 dependency history,2694,4712,818,grip_decline_sd,1.195139916482679,1.0910831073482874,1.3091206438358636,0.00012528259455871405,,
+CHARLS,BMI adjustment,same-sample comparator,3724,6618,992,grip_decline_sd,1.2158740372500816,1.1202314027367968,1.3196824074446676,2.9242239967455564e-06,,
+CHARLS,BMI adjustment,adjusted for 2011 BMI,3724,6618,992,grip_decline_sd,1.218364749301941,1.1221416867940759,1.3228388890733598,2.5342872207340703e-06,,
+CHARLS,measurement scale,sex-specific within-cohort standardized change,3767,6689,1010,grip_decline_sex_z,1.2112747242105113,1.117393198652356,1.3130440200287294,3.214283652864073e-06,One unit is one sex-specific SD after centering within sex.,
+CHARLS,age restriction,age >=50 years,3586,6353,985,grip_decline_sd,1.2134187436434716,1.1181012593392685,1.3168619882383397,3.5798688898290466e-06,,1 SD = 7.277150 kg
+ELSA,primary reproduction,original primary,3991,7233,733,grip_z,1.115277868546634,1.0174594885281876,1.222500490775524,0.019830748845039152,Frozen reference-population change-score SD.,
+ELSA,earlier ADL/IADL status,same-sample comparator,3991,7233,733,grip_z,1.115277868546634,1.0174594885281876,1.222500490775524,0.019830748845039152,,
+ELSA,earlier ADL/IADL status,adjusted for Wave 4 difficulty history,3991,7233,733,grip_z,1.1262958410500152,1.0269794204609468,1.235216885842943,0.011563356202484523,,
+ELSA,BMI adjustment,same-sample comparator,3924,7116,719,grip_z,1.1165570481048357,1.0172578786972117,1.2255492611855858,0.02033925981125865,,
+ELSA,BMI adjustment,adjusted for Wave 4 valid BMI,3924,7116,719,grip_z,1.1244808374239694,1.0250400843881589,1.2335684945320549,0.013010142007567931,,
+ELSA,measurement scale,sex-specific within-cohort standardized change,3991,7233,733,grip_decline_sex_z,1.1207018669419357,1.0266838629760533,1.2233295173515695,0.010802585749733203,One unit is one sex-specific SD after centering within sex.,
+ELSA,age restriction,age >=50 years,3991,7233,733,grip_z,1.115277868546634,1.0174594885281876,1.222500490775524,0.019830748845039152,Identical to the primary ELSA age eligibility.,

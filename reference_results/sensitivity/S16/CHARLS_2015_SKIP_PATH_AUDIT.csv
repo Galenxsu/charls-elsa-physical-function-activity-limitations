@@ -1,0 +1,5 @@
+﻿route,N,eligible_for_recode
+all landmark-unascertainable after calculable two-wave grip,3307,NO
+explicit DB001/DB004-DB009 all-no-difficulty route; DB010-DB015 skipped; all six IADLs valid and non-dependent,2431,YES
+DB001-DB015 all missing (possible younger-participant entry skip; routing condition not sufficiently resolved),48,NO
+other incomplete or conflicting landmark patterns,828,NO

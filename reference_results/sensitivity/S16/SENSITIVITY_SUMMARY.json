@@ -1,0 +1,261 @@
+{
+  "results": [
+    {
+      "cohort": "CHARLS",
+      "analysis": "primary reproduction",
+      "model": "original primary",
+      "participants": 3767,
+      "person_periods": 6689,
+      "events": 1010,
+      "term": "grip_decline_sd",
+      "HR": 1.2137716269311634,
+      "CI_low": 1.119083471253266,
+      "CI_high": 1.316471559260217,
+      "p_value": 2.9406872547978913e-06,
+      "notes": "",
+      "change_scale": "1 SD = 7.304046 kg"
+    },
+    {
+      "cohort": "CHARLS",
+      "analysis": "2015 structural-skip recoding",
+      "model": "eligible deterministic skips recoded as dependency-free",
+      "participants": 5844,
+      "person_periods": 10578,
+      "events": 1246,
+      "term": "grip_decline_sd",
+      "HR": 1.2119633707726327,
+      "CI_low": 1.126317441898873,
+      "CI_high": 1.3041218731534512,
+      "p_value": 2.730455321661172e-07,
+      "notes": "Only questionnaire-explicit DB001/DB004-DB009 all-no-difficulty routing patterns were recoded; unresolved patterns remained missing.",
+      "change_scale": "1 SD = 7.258629 kg"
+    },
+    {
+      "cohort": "CHARLS",
+      "analysis": "earlier ADL/IADL status",
+      "model": "same-sample comparator",
+      "participants": 2694,
+      "person_periods": 4712,
+      "events": 818,
+      "term": "grip_decline_sd",
+      "HR": 1.2034541314812617,
+      "CI_low": 1.0994955145841376,
+      "CI_high": 1.3172421600347404,
+      "p_value": 5.8767637686073896e-05,
+      "notes": ""
+    },
+    {
+      "cohort": "CHARLS",
+      "analysis": "earlier ADL/IADL status",
+      "model": "adjusted for 2011 dependency history",
+      "participants": 2694,
+      "person_periods": 4712,
+      "events": 818,
+      "term": "grip_decline_sd",
+      "HR": 1.195139916482679,
+      "CI_low": 1.0910831073482874,
+      "CI_high": 1.3091206438358636,
+      "p_value": 0.00012528259455871405,
+      "notes": ""
+    },
+    {
+      "cohort": "CHARLS",
+      "analysis": "BMI adjustment",
+      "model": "same-sample comparator",
+      "participants": 3724,
+      "person_periods": 6618,
+      "events": 992,
+      "term": "grip_decline_sd",
+      "HR": 1.2158740372500816,
+      "CI_low": 1.1202314027367968,
+      "CI_high": 1.3196824074446676,
+      "p_value": 2.9242239967455564e-06,
+      "notes": ""
+    },
+    {
+      "cohort": "CHARLS",
+      "analysis": "BMI adjustment",
+      "model": "adjusted for 2011 BMI",
+      "participants": 3724,
+      "person_periods": 6618,
+      "events": 992,
+      "term": "grip_decline_sd",
+      "HR": 1.218364749301941,
+      "CI_low": 1.1221416867940759,
+      "CI_high": 1.3228388890733598,
+      "p_value": 2.5342872207340703e-06,
+      "notes": ""
+    },
+    {
+      "cohort": "CHARLS",
+      "analysis": "measurement scale",
+      "model": "sex-specific within-cohort standardized change",
+      "participants": 3767,
+      "person_periods": 6689,
+      "events": 1010,
+      "term": "grip_decline_sex_z",
+      "HR": 1.2112747242105113,
+      "CI_low": 1.117393198652356,
+      "CI_high": 1.3130440200287294,
+      "p_value": 3.214283652864073e-06,
+      "notes": "One unit is one sex-specific SD after centering within sex."
+    },
+    {
+      "cohort": "CHARLS",
+      "analysis": "age restriction",
+      "model": "age >=50 years",
+      "participants": 3586,
+      "person_periods": 6353,
+      "events": 985,
+      "term": "grip_decline_sd",
+      "HR": 1.2134187436434716,
+      "CI_low": 1.1181012593392685,
+      "CI_high": 1.3168619882383397,
+      "p_value": 3.5798688898290466e-06,
+      "notes": "",
+      "change_scale": "1 SD = 7.277150 kg"
+    },
+    {
+      "cohort": "ELSA",
+      "analysis": "primary reproduction",
+      "model": "original primary",
+      "participants": 3991,
+      "person_periods": 7233,
+      "events": 733,
+      "term": "grip_z",
+      "HR": 1.115277868546634,
+      "CI_low": 1.0174594885281876,
+      "CI_high": 1.222500490775524,
+      "p_value": 0.019830748845039152,
+      "notes": "Frozen reference-population change-score SD."
+    },
+    {
+      "cohort": "ELSA",
+      "analysis": "earlier ADL/IADL status",
+      "model": "same-sample comparator",
+      "participants": 3991,
+      "person_periods": 7233,
+      "events": 733,
+      "term": "grip_z",
+      "HR": 1.115277868546634,
+      "CI_low": 1.0174594885281876,
+      "CI_high": 1.222500490775524,
+      "p_value": 0.019830748845039152,
+      "notes": ""
+    },
+    {
+      "cohort": "ELSA",
+      "analysis": "earlier ADL/IADL status",
+      "model": "adjusted for Wave 4 difficulty history",
+      "participants": 3991,
+      "person_periods": 7233,
+      "events": 733,
+      "term": "grip_z",
+      "HR": 1.1262958410500152,
+      "CI_low": 1.0269794204609468,
+      "CI_high": 1.235216885842943,
+      "p_value": 0.011563356202484523,
+      "notes": ""
+    },
+    {
+      "cohort": "ELSA",
+      "analysis": "BMI adjustment",
+      "model": "same-sample comparator",
+      "participants": 3924,
+      "person_periods": 7116,
+      "events": 719,
+      "term": "grip_z",
+      "HR": 1.1165570481048357,
+      "CI_low": 1.0172578786972117,
+      "CI_high": 1.2255492611855858,
+      "p_value": 0.02033925981125865,
+      "notes": ""
+    },
+    {
+      "cohort": "ELSA",
+      "analysis": "BMI adjustment",
+      "model": "adjusted for Wave 4 valid BMI",
+      "participants": 3924,
+      "person_periods": 7116,
+      "events": 719,
+      "term": "grip_z",
+      "HR": 1.1244808374239694,
+      "CI_low": 1.0250400843881589,
+      "CI_high": 1.2335684945320549,
+      "p_value": 0.013010142007567931,
+      "notes": ""
+    },
+    {
+      "cohort": "ELSA",
+      "analysis": "measurement scale",
+      "model": "sex-specific within-cohort standardized change",
+      "participants": 3991,
+      "person_periods": 7233,
+      "events": 733,
+      "term": "grip_decline_sex_z",
+      "HR": 1.1207018669419357,
+      "CI_low": 1.0266838629760533,
+      "CI_high": 1.2233295173515695,
+      "p_value": 0.010802585749733203,
+      "notes": "One unit is one sex-specific SD after centering within sex."
+    },
+    {
+      "cohort": "ELSA",
+      "analysis": "age restriction",
+      "model": "age >=50 years",
+      "participants": 3991,
+      "person_periods": 7233,
+      "events": 733,
+      "term": "grip_z",
+      "HR": 1.115277868546634,
+      "CI_low": 1.0174594885281876,
+      "CI_high": 1.222500490775524,
+      "p_value": 0.019830748845039152,
+      "notes": "Identical to the primary ELSA age eligibility."
+    }
+  ],
+  "skip_audit": [
+    {
+      "route": "all landmark-unascertainable after calculable two-wave grip",
+      "N": 3307,
+      "eligible_for_recode": "NO"
+    },
+    {
+      "route": "explicit DB001/DB004-DB009 all-no-difficulty route; DB010-DB015 skipped; all six IADLs valid and non-dependent",
+      "N": 2431,
+      "eligible_for_recode": "YES"
+    },
+    {
+      "route": "DB001-DB015 all missing (possible younger-participant entry skip; routing condition not sufficiently resolved)",
+      "N": 48,
+      "eligible_for_recode": "NO"
+    },
+    {
+      "route": "other incomplete or conflicting landmark patterns",
+      "N": 828,
+      "eligible_for_recode": "NO"
+    }
+  ],
+  "qc": [
+    {
+      "check": "CHARLS original anchor reproduced",
+      "status": "PASS"
+    },
+    {
+      "check": "Only explicit questionnaire skip recoded",
+      "status": "PASS"
+    },
+    {
+      "check": "Unresolved 2015 missing patterns remain missing",
+      "status": "PASS"
+    },
+    {
+      "check": "Same-sample comparators supplied for early status and BMI",
+      "status": "PASS"
+    },
+    {
+      "check": "No original result files overwritten",
+      "status": "PASS"
+    }
+  ]
+}

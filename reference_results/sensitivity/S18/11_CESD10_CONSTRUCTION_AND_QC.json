@@ -1,0 +1,19 @@
+{
+  "V1_N": 2499,
+  "V1_CESD_complete": 2314,
+  "V1_CESD_missing_reproduced": 185,
+  "V1_CESD_mean_reproduced": 8.339671564390665,
+  "V1_CESD_SD_reproduced": 6.027140595439405,
+  "legacy_manuscript_missing_count": 156,
+  "legacy_missing_count_reproduced": false,
+  "V2_joint_participants": 3457,
+  "V2_joint_person_periods": 6165,
+  "V2_joint_events": 893,
+  "V2_CESD_complete_participants": 3479,
+  "V2_BMI_complete_participants": 3740,
+  "V2_joint_complete_participants": 3457,
+  "change_SD_kg": 7.274184783551731,
+  "CESD_definition": "2015 dc009-dc018; response 1-4 mapped to 0-3; dc013 and dc016 reverse scored; all 10 items required",
+  "BMI_definition": "2015 measured weight / measured height squared; BMI 10-80 kg/m2",
+  "analysis_status": "POST_HOC_AFTER_PRE_SUBMISSION_REVIEW"
+}

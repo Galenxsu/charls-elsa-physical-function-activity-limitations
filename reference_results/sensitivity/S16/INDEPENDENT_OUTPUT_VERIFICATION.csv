@@ -1,0 +1,13 @@
+﻿check,status,detail
+expected result row count,PASS,15
+all estimates finite,PASS,finite fields
+all interval ordering valid,PASS,CI_low < HR < CI_high
+CHARLS anchor HR,PASS,exact reproduction
+ELSA anchor HR,PASS,exact reproduction
+skip categories reconcile,PASS,3307/3307
+only one skip category eligible,PASS,1
+CHARLS earlier ADL/IADL status same-sample comparison,PASS,"N=[2694, 2694], rows=[4712, 4712], events=[818, 818]"
+CHARLS BMI adjustment same-sample comparison,PASS,"N=[3724, 3724], rows=[6618, 6618], events=[992, 992]"
+ELSA earlier ADL/IADL status same-sample comparison,PASS,"N=[3991, 3991], rows=[7233, 7233], events=[733, 733]"
+ELSA BMI adjustment same-sample comparison,PASS,"N=[3924, 3924], rows=[7116, 7116], events=[719, 719]"
+all sensitivity directions positive,PASS,min HR=1.115278

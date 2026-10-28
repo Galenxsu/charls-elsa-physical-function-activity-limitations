@@ -11,3 +11,9 @@ Known requirements:
 - Adequate memory for repeated-wave cohort files.
 
 Random seeds recorded in the analysis scripts are retained. Models and scientific definitions were not altered during path sanitization.
+
+Version 1.2.0 additionally preserves the executable S16-S18 sensitivity
+workflows. Participant-level intermediates remain local and ignored. The
+repository contains only aggregate model results, routing counts,
+standardization parameters, and QC summaries needed to verify the reported
+supplementary tables.
